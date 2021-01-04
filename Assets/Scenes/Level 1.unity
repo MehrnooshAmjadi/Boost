@@ -609,11 +609,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1383763541, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
       propertyPath: m_Mass
-      value: 0.08
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1383763541, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
       propertyPath: m_Constraints
       value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383763542, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
+      propertyPath: rcsThrust
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383763542, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
+      propertyPath: mainThrust
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6225849116041080321, guid: 4bf96024a721af24f9feba5fc8b4672f,
         type: 3}
