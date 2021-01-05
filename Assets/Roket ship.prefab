@@ -445,6 +445,12 @@ MonoBehaviour:
   mainEngine: {fileID: 8300000, guid: e7404d233929a044e9592a760870a2c4, type: 3}
   success: {fileID: 8300000, guid: 97ce715c46c246d4d8a9e15ca1ec2112, type: 3}
   death: {fileID: 8300000, guid: 99c5ed911455d024483a082e646c8d0c, type: 3}
+  mainEngineParticles: {fileID: 198100719057022332, guid: a3553fd250eb92d4091bebde350c6739,
+    type: 3}
+  successParticles: {fileID: 198631066050499358, guid: 62198a3a5dbb64a4f9e1618929224faa,
+    type: 3}
+  deathParticles: {fileID: 198204746014789312, guid: ab79a37535b979f48b6de56e3a0a5cb0,
+    type: 3}
 --- !u!1 &8542248036347105065
 GameObject:
   m_ObjectHideFlags: 0
