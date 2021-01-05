@@ -6,6 +6,8 @@ public class Rocket : MonoBehaviour
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 100f;
     [SerializeField] AudioClip mainEngine;
+    [SerializeField] AudioClip success;
+    [SerializeField] AudioClip death;
 
     Rigidbody rigidBody;
     AudioSource audioSource;
@@ -43,15 +45,28 @@ public class Rocket : MonoBehaviour
                 print("Ok!");
                 break;
             case "Finish":
-                state = State.Transcending;
-                Invoke("loadNextLevel", 1f);
+                StartSuceesSequence();
                 break;
             default:
-                print("Hit something deadly.");
-                state = State.Dying;
-                Invoke("loadFirstLevel", 1f);
+                StartDeathSequence();
                 break;
         }
+    }
+
+    private void StartSuceesSequence()
+    {
+        state = State.Transcending;
+        audioSource.Stop();
+        audioSource.PlayOneShot(success);
+        Invoke("loadNextLevel", 1f);
+    }
+
+    private void StartDeathSequence()
+    {
+        state = State.Dying;
+        audioSource.Stop();
+        audioSource.PlayOneShot(death);
+        Invoke("loadFirstLevel", 1f);
     }
 
     private void loadFirstLevel()

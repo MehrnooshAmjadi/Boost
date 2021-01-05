@@ -443,6 +443,8 @@ MonoBehaviour:
   rcsThrust: 100
   mainThrust: 50
   mainEngine: {fileID: 8300000, guid: e7404d233929a044e9592a760870a2c4, type: 3}
+  success: {fileID: 8300000, guid: 97ce715c46c246d4d8a9e15ca1ec2112, type: 3}
+  death: {fileID: 8300000, guid: 99c5ed911455d024483a082e646c8d0c, type: 3}
 --- !u!1 &8542248036347105065
 GameObject:
   m_ObjectHideFlags: 0
