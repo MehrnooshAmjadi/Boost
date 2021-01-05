@@ -442,6 +442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rcsThrust: 100
   mainThrust: 50
+  mainEngine: {fileID: 8300000, guid: e7404d233929a044e9592a760870a2c4, type: 3}
 --- !u!1 &8542248036347105065
 GameObject:
   m_ObjectHideFlags: 0
