@@ -2273,7 +2273,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1383763542, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
       propertyPath: rcsThrust
-      value: 100
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1383763542, guid: 4bf96024a721af24f9feba5fc8b4672f, type: 3}
       propertyPath: deathParticles
